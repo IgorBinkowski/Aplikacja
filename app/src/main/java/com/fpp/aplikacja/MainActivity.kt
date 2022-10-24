@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.Przycisk2).setOnClickListener {
             findViewById<Button>(R.id.Przycisk2).text = "Magenta"
             findViewById<Button>(R.id.Przycisk2).setTextColor(Color.BLACK)
-            findViewById<Button>(R.id.Przycisk2).setBackgroundColor(Color.MAGENTA);
+            findViewById<Button>(R.id.Przycisk2).setBackgroundColor(Color.MAGENTA)
         }
     }
 }
